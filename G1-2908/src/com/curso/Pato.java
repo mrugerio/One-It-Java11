@@ -1,5 +1,6 @@
 package com.curso;
 
+import java.io.PrintStream;
 import java.util.Objects;
 
 public class Pato{
@@ -8,6 +9,7 @@ public class Pato{
 	
 	public Pato(String name) {
 		this.name = name;
+		PrintStream ps;
 	}
 
 	@Override

@@ -1,5 +1,7 @@
 package com.curso;
 
+import java.io.PrintStream;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -37,6 +39,9 @@ public class Principal {
 		
 		s1.append(" World");
 		System.out.println("s1: "+s1); //Hello World
+		
+		PrintStream ps = System.out;
+		PrintStream ps1 = System.err;
 		
 	}
 
