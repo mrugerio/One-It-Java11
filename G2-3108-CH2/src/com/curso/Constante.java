@@ -1,32 +1,25 @@
 package com.curso;
 
 public class Constante {
-	
-	public static void main(String[] args) {
 
-		final int x = 10;
-		//x = 15;
+	public static void main(String[] args) {
+		final int x = 5;
+		//x = 4;
 		
-		final StringBuilder sb = new StringBuilder("Hola");
-		sb.append(" Mundo");
+		final String s1 = "Hola";
+		//s1 = s1.concat(" Mundo");
+		
+		final StringBuilder sb = 
+				new StringBuilder("Hello");
+		
+		sb.append(" World");
 		System.out.println(sb);
-		//sb = new StringBuilder("Hi");
 		
-		final String s = "Hello";
-		//s = s.concat(" World");
-		System.out.println(s);
+		//sb = new StringBuilder("Hello");
 		
-		new Constante().paintFancy();
+		
+		
+		
 	}
-	
-	void paintFancy(){
-		int i;
-		int i1, i2, i3 = 0;;;;;;;;;;;
-		System.out.println(i3);
-		
-		int num; String value;
-	};;;;;;;;
-	
-	
 
 }

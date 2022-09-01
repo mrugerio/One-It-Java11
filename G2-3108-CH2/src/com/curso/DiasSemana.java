@@ -1,8 +1,11 @@
 package com.curso;
 
 public interface DiasSemana {
-	int LUNES = 0;
-	int MARTES = 1;
-	int MIERCOLES = 2;
-	public final static int JUEVES = 3;
+	
+	public static final int LUNES = 1;
+	public static final int MARTES = 2;
+	public static final int MIERCOLES = 3;
+	public static final int JUEVES = 4;
+	public static final int VIERNES = 5;
+
 }
