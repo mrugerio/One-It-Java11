@@ -4,12 +4,12 @@ public class LogicalOperators {
 
 	public static void main(String[] args) {
 
-		boolean eyesClosed = false; 
-		boolean breathingSlowly = true;
+		boolean eyesClosed = true; 
+		boolean breathingSlowly = false;
 
-		boolean resting = eyesClosed | breathingSlowly; //true
-		boolean asleep = eyesClosed & breathingSlowly; //false
-		boolean awake = eyesClosed ^ breathingSlowly; //true
+		boolean resting = eyesClosed | breathingSlowly; 
+		boolean asleep = breathingSlowly & eyesClosed; 
+		boolean awake = eyesClosed ^ breathingSlowly; 
 		
 		System.out.println(resting);
 		System.out.println(asleep);
