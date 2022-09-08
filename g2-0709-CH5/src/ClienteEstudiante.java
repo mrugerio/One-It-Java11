@@ -20,13 +20,23 @@ public class ClienteEstudiante {
 		int edad = e.getEdad();
 		edad = 8;
 		
-		listaMat.add("Java");
+		
 		e.getMaterias().add("C");
 		
 		tutorCliente = tutorCliente.append(" Otro");
 		e.getTutor().append(" Otro");
 		
 		System.out.println(e);
+		
+		//Modicar la lista materias
+		listaMat.add("Java");
+		
+		//SE CAMBIA LA REFERENCIA A UN NUEVO OBJETO INMUTABLE
+		e = new Estudiante(e.getNombre(),
+				e.getEdad(),listaMat,e.getTutor());
+		
+		System.out.println("NuevoEstudiante:"+e);
+		
 	}
 
 }
